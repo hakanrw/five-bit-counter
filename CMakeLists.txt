@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.13)
 set(PICO_BOARD pico_w)
 include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
 
-project(hello_world C CXX ASM)
+project(five_bit_counter C CXX ASM)
 
 # initialize the Raspberry Pi Pico SDK
 pico_sdk_init()
